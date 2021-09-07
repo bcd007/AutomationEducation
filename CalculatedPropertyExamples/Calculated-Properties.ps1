@@ -38,7 +38,7 @@ Get-AzureADSubscribedSku | Format-Table -AutoSize -Property SkuPartNumber,Capabi
 # What about running another command to create a calculated property?  I make one!!
 Get-AzureADUser -ObjectId <someuser>@.contoso.com | Select-Object -Property ObjectID,DisplayName,UserPrincipalName,@{Name="OwnedObjectId";Expression={((Get-AzureADUserCreatedObject -ObjectId $_.ObjectID).ObjectID) -join ";" }},@{Name="OwnedObjectDisplayname";Expression={((Get-AzureADUserCreatedObject -ObjectId $_.ObjectID).displayName) -join ";"}}
 
-# Maybe Travis has created some AD stuff?
+# Maybe UserX has created some AD stuff?
 Get-AzureADUser -ObjectId <somuser>@contoso.com | Select-Object -Property ObjectID,DisplayName,UserPrincipalName,@{Name="OwnedObjectId";Expression={((Get-AzureADUserCreatedObject -ObjectId $_.ObjectID).ObjectID) -join ";" }},@{Name="OwnedObjectDisplayname";Expression={((Get-AzureADUserCreatedObject -ObjectId $_.ObjectID).displayName) -join ";"}}
 
 
