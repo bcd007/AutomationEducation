@@ -10,6 +10,9 @@ get-service -Name WebClient
 
 # Why did the cmdlet apply "WebClient" as "Name" instead of <some other parameter>?  It's the Position indicator for the parameter, Name is Position 0:
 
+# When parameters are positional, the parameter name is optional. PowerShell associates unnamed parameter values with the function parameters according to the order or position of the unnamed parameter values in the function command.
+# When parameters are not positional (they are "named"), the parameter name (or an abbreviation or alias of the name) is required in the command.
+
 # name              required pipelineInput                  position
 # ----              -------- -------------                  --------
 # ComputerName      false    True (ByPropertyName)          named
