@@ -1,11 +1,13 @@
 # non-pipeline method for searching by name
-get-service -Name WebClient
-get-service WebClient
+# "Named" parameter
+Get-Service -Name WebClient
+# "Positional" parameter
+Get-Service WebClient
 
-# To have the ability to provide parameters to a cmdlet in a script from pipeline, we first must know if that cmddlet has parameters that can take pipeline input
+# To have the ability to provide parameters to a cmdlet in a script from pipeline, we first must know if that cmdlet has parameters that can take pipeline input
 # To do that, use Get-Help to see the available parameter information
 
-get-help get-service -Parameter * | select-object name,required,pipelineInput,position,@{Name="Type";Expression={$_.Type.Name}} | Format-Table -AutoSize
+Get-Help Get-Service -Parameter * | Select-Object name,required,pipelineInput,position,@{Name="Type";Expression={$_.Type.Name}} | Format-Table -AutoSize
 
 # name              required pipelineInput                  position Type
 # ----              -------- -------------                  -------- ----
@@ -19,7 +21,7 @@ get-help get-service -Parameter * | select-object name,required,pipelineInput,po
 # RequiredServices  false    False                          named    System.Management.Automation.SwitchParameter
 
 # Use PipeLine input for Name parameter
-"WebClient" | get-service
+"WebClient" | Get-Service
 
 [CmdletBinding()]
 param (
@@ -43,17 +45,19 @@ param (
 
 # Using those documents to provide parameter data to a script
 # CSV
-import-csv .\services.csv
+Import-Csv .\services.csv
 
-import-csv .\services.csv | get-service
-import-csv .\services.csv | .\Get-ServiceUsingParameterFile.ps1
+Import-Csv .\services.csv | Get-Service
+Import-Csv .\services.csv | .\Get-ServiceUsingParameterFile.ps1
 
 # JSON
 # Read the JSON File
-(Get-Content -Raw ".\services.json")
+(Get-Content -Raw .\services.json)
 # Lets convert that from a string to a custom object so PowerShell can more better use it!
-(Get-Content -Raw ".\services.json") | ConvertFrom-Json
+(Get-Content -Raw .\services.json) | ConvertFrom-Json
 
 # Put it all together...
-(Get-Content -Raw ".\services.json") | ConvertFrom-Json | get-service
-(Get-Content -Raw ".\services.json") | ConvertFrom-Json | .\Get-ServiceUsingParameterFile.ps1
+(Get-Content -Raw .\services.json) | ConvertFrom-Json | Get-Service
+(Get-Content -Raw .\services.json) | ConvertFrom-Json | .\Get-ServiceUsingParameterFile.ps1
+
+## Can see the ParameterBinding/ folder and its Jupyter notebook for even more info about parameter binding, types, parameter sets, etc.
