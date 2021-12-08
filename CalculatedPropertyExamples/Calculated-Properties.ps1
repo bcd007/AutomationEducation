@@ -14,12 +14,30 @@ Get-AzureADSubscribedSku | Select-Object -expand PrepaidUnits
 
 Get-AzureADSubscribedSku | Select-Object -expand PrepaidUnits | Select-Object -Property Enabled
 
-# No property for licenses that have been purchased, but it's a sub-property of .PrepaidUnits called 'Enabled'.
+# No root property for licenses that have been purchased, but it's a sub-property of .PrepaidUnits called 'Enabled'.
 # Let's make a property for that using Calculated Properties!
 
 # Do we understand how to create a hashtable or what's a hashtable?
-@{Name="FirstName";Expression={"Roberto"}}
-@{Name="FirstName";Expression={"Roberto"}} | get-member
+
+$environments = @{
+    Prod = 'PServer01'
+    QA   = 'QServer01'
+    Dev  = 'DServer01'
+}
+
+$environments
+
+$environments["Prod"]
+
+# Create a hash table where we have a Name and Expression key, and the Value is what we want the Name and output of our calculated property to be:
+
+@{Name="CanWeShutItDown?";Expression={$_.CanShutdown}}
+
+# So put that Hashtable to use, and create a custom property in your output of whatever you need!
+
+get-service | Select-Object -Property Name,Status,@{Name="CanWeShutItDown?";Expression={$_.CanShutdown}}
+
+# -- OR --
 
 Get-AzureADSubscribedSku | Select-Object -Property SkuPartNumber,CapabilityStatus,@{Name="PurchasedUnits";Expression={$_.PrepaidUnits.Enabled}},ConsumedUnits
 
@@ -48,4 +66,10 @@ get-help about_Calculated_Properties
 
 # If Time Permits
 # Get list of users with a specific license by SKUID and where they got the license from
-Get-MsolUser -MaxResults 600 | ForEach-Object{$user = $_ ; $user | Select-Object -expand Licenses | Where-Object{$_.AccountSkuId -like "*POWER_BI_PRO*"} | Select-Object -Property @{Name="UserDisplayName";Expression={$user.DisplayName}},@{Name="UserPrincipalName";Expression={$user.UserPrincipalName}},@{Name="GrantingGroup";Expression={Get-MSOLGroup -ObjectId ($_.GroupsAssigningLicense.Guid) | Select-Object -expand DisplayName}}} | Format-Table -AutoSize
+Connect-MsolService
+
+#All License SKUs for the first 100 users Get-MSOLUser returns
+Get-MsolUser -MaxResults 100 -PipelineVariable user  | ForEach-Object{$user | Select-Object -expand Licenses | Select-Object -Property @{Name="UserDisplayName";Expression={$user.DisplayName}},@{Name="UserPrincipalName";Expression={$user.UserPrincipalName}},@{Name="LicenseSKU";Expression={$_.AccountSkuId}},@{Name="GrantingGroup";Expression={Get-MSOLGroup -ObjectId ($_.GroupsAssigningLicense.Guid) | Select-Object -expand DisplayName}}} | Format-Table -AutoSize
+
+#Specific License SKU for the first 100 users Get-MSOLUser returns
+Get-MsolUser -MaxResults 100 -PipelineVariable user | ForEach-Object{$user | Select-Object -expand Licenses | Where-Object{$_.AccountSkuId -like "*E3*"} | Select-Object -Property @{Name="UserDisplayName";Expression={$user.DisplayName}},@{Name="UserPrincipalName";Expression={$user.UserPrincipalName}},@{Name="LicenseSKU";Expression={$_.AccountSkuId}},@{Name="GrantingGroup";Expression={Get-MSOLGroup -ObjectId ($_.GroupsAssigningLicense.Guid) | Select-Object -expand DisplayName}}} | Format-Table -AutoSize
