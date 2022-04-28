@@ -54,10 +54,10 @@ Get-AzureADSubscribedSku | Select-Object -Property SkuPartNumber,CapabilityStatu
 Get-AzureADSubscribedSku | Format-Table -AutoSize -Property SkuPartNumber,CapabilityStatus,@{Name="PurchasedUnits";Expression={$_.PrepaidUnits.Enabled}},ConsumedUnits,@{Name="AvailableUnits";Expression={($_.PrepaidUnits.Enabled) - ($_.ConsumedUnits)}}
 
 # What about running another command to create a calculated property?  I make one!!
-Get-AzureADUser -ObjectId <someuser>@.contoso.com | Select-Object -Property ObjectID,DisplayName,UserPrincipalName,@{Name="OwnedObjectId";Expression={((Get-AzureADUserCreatedObject -ObjectId $_.ObjectID).ObjectID) -join ";" }},@{Name="OwnedObjectDisplayname";Expression={((Get-AzureADUserCreatedObject -ObjectId $_.ObjectID).displayName) -join ";"}}
+Get-AzureADUser -ObjectId someuser@.contoso.com | Select-Object -Property ObjectID,DisplayName,UserPrincipalName,@{Name="OwnedObjectId";Expression={((Get-AzureADUserCreatedObject -ObjectId $_.ObjectID).ObjectID) -join ";" }},@{Name="OwnedObjectDisplayname";Expression={((Get-AzureADUserCreatedObject -ObjectId $_.ObjectID).displayName) -join ";"}}
 
 # Maybe UserX has created some AD stuff?
-Get-AzureADUser -ObjectId <somuser>@contoso.com | Select-Object -Property ObjectID,DisplayName,UserPrincipalName,@{Name="OwnedObjectId";Expression={((Get-AzureADUserCreatedObject -ObjectId $_.ObjectID).ObjectID) -join ";" }},@{Name="OwnedObjectDisplayname";Expression={((Get-AzureADUserCreatedObject -ObjectId $_.ObjectID).displayName) -join ";"}}
+Get-AzureADUser -ObjectId somuser@contoso.com | Select-Object -Property ObjectID,DisplayName,UserPrincipalName,@{Name="OwnedObjectId";Expression={((Get-AzureADUserCreatedObject -ObjectId $_.ObjectID).ObjectID) -join ";" }},@{Name="OwnedObjectDisplayname";Expression={((Get-AzureADUserCreatedObject -ObjectId $_.ObjectID).displayName) -join ";"}}
 
 
 # For more fun and excitement!
