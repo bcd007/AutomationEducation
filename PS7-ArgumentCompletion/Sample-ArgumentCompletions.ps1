@@ -52,25 +52,22 @@ $serviceNameScriptBlock = {
 Register-ArgumentCompleter -CommandName Test-ArgumentCompletions -ParameterName ServiceName -ScriptBlock $serviceNameScriptBlock
 
 
-function Test-ArgumentCompletionsSmall {
+function Test-FruitsAndVegValidation{
     [CmdletBinding()]
     param(
         [Parameter(Mandatory=$true)]
-        [ArgumentCompletions('Fruits', 'Vegetables')]
-        $Type,
-
-        [Parameter()]
         [ArgumentCompletions('Apple', 'Banana', 'Orange')]
         $Fruit,
 
-        [Parameter()]
+        [Parameter(Mandatory=$true)]
         [ArgumentCompletions('Tomato', 'Corn', 'Squash')]
         $Vegetable
     )
-    Return $Type,$Fruit,$Vegetable
+    Return $Fruit,$Vegetable
 }
 
-function Test-ArgumentValidation {
+
+function Test-FruitValidation {
     Param(
         [Parameter(Mandatory=$true)]
         [ValidateSet('Apple', 'Banana', 'Pear')]
