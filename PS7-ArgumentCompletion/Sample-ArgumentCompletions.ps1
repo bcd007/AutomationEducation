@@ -1,64 +1,33 @@
 # Note:  'ArgumentCompletions' is only available in PowerShell 6.0 and above
 # For Windows PowerShell, use Register-ArgumentCompleter with a scriptblock
 
+function Test-FunctionParameterTypes {
+    [CmdletBinding()]
+
+    Param(
+        [Parameter(Mandatory)]
+        [ValidateNotNullOrEmpty()]
+        [string[]]
+        $UserName,
+
+        [Parameter(Mandatory)]
+        [ValidateLength(1,10)]
+        [string[]]
+        $ComputerName,
+
+        [Parameter(Mandatory)]
+        [Int32[]]
+        $ComputerNumber
+    )
+
+    $userName,$ComputerName,$ComputerNumber
+}
+
+
+
 function Test-ArgumentCompletions {
     [CmdletBinding()]
-    param (
-        [Parameter(Mandatory=$true)]
-        $clientFile,
-
-        [Parameter()]
-        $TZone,
-        
-        [Parameter()]
-        $ServiceName,
-
-        [Parameter]
-        [ArgumentCompletions('Fruits', 'Vegetables')]
-        $Type,
-
-        [Parameter()]
-        [ArgumentCompletions('Apple', 'Banana', 'Orange')]
-        $Fruit,
-
-        [Parameter()]
-        [ArgumentCompletions('Tomato', 'Corn', 'Squash')]
-        $Vegetable
-    )
-    Return $clientFile,$TZone,$ServiceName,$Type,$Fruit,$Vegetable
-}
-
-$clientFileScriptBlock = {
-    param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
-    (Get-ChildItem -Path *.json -Recurse).FullName | Where-Object {$_ -like "$wordToComplete*"} | ForEach-Object {"'$_'"}
-}
-Register-ArgumentCompleter -CommandName Test-ArgumentCompletions -ParameterName clientFile -ScriptBlock $clientFileScriptBlock
-
-$timeZonescriptBlock = {
-    param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
-    (Get-TimeZone -ListAvailable).Id | Where-Object {$_ -like "$wordToComplete*"} | ForEach-Object {"'$_'"}
-}
-
-Register-ArgumentCompleter -CommandName Test-ArgumentCompletions -ParameterName TZone -ScriptBlock $timeZonescriptBlock
-
-
-$serviceNameScriptBlock = {
-    param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
-    $services = Get-Service | Where-Object {$_.Status -eq "Running" -and $_.Name -like "$wordToComplete*"}
-    $services | ForEach-Object {
-        New-Object -Type System.Management.Automation.CompletionResult -ArgumentList $_.Name,$_.Name,"ParameterValue",$_.Name}
-}
-
-Register-ArgumentCompleter -CommandName Test-ArgumentCompletions -ParameterName ServiceName -ScriptBlock $serviceNameScriptBlock
-
-
-function Test-ArgumentCompletionsSmall {
-    [CmdletBinding()]
     param(
-        [Parameter(Mandatory=$true)]
-        [ArgumentCompletions('Fruits', 'Vegetables')]
-        $Type,
-
         [Parameter()]
         [ArgumentCompletions('Apple', 'Banana', 'Orange')]
         $Fruit,
@@ -67,8 +36,10 @@ function Test-ArgumentCompletionsSmall {
         [ArgumentCompletions('Tomato', 'Corn', 'Squash')]
         $Vegetable
     )
-    Return $Type,$Fruit,$Vegetable
+    Return $Fruit,$Vegetable
 }
+
+
 
 function Test-ArgumentValidation {
     Param(
@@ -81,32 +52,45 @@ function Test-ArgumentValidation {
 }
 
 
-# Argument completion for Windows PowerShell & PowerShell
-function Test-ArgCompletionWindowPShell {
-    [CmdletBinding()]
-    param (
-        [Parameter(Mandatory=$true)]
-        $clientFile,
 
+# Argument completion for Windows PowerShell & PowerShell
+function Test-ArgCompletionTimezone {
+    [CmdletBinding()]
+    param(
         [Parameter()]
         $TZone
-        
-    )
-    Return $clientFile,$TZone
+        )
+    Return $TZone
 }
-
-$clientFileScriptBlock = {
-    param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
-    (Get-ChildItem -Path *.json -Recurse).FullName | Where-Object {$_ -like "$wordToComplete*"} | ForEach-Object {"'$_'"}
-}
-Register-ArgumentCompleter -CommandName Test-ArgCompletionWindowPShell -ParameterName clientFile -ScriptBlock $clientFileScriptBlock
 
 
 $timeZonescriptBlock = {
     param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
-    (Get-TimeZone -ListAvailable).Id | Where-Object {$_ -like "$wordToComplete*"} | ForEach-Object {"'$_'"}
+    (Get-TimeZone -ListAvailable).DisplayName | Where-Object {$_ -like "$wordToComplete*"} | ForEach-Object {"'$_'"}
 }
-Register-ArgumentCompleter -CommandName Test-ArgCompletionWindowPShell -ParameterName TZone -ScriptBlock $timeZonescriptBlock
+Register-ArgumentCompleter -CommandName Test-ArgCompletionTimezone -ParameterName TZone -ScriptBlock $timeZonescriptBlock
+
+
+
+function Test-ArgCompletionFiles {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory=$true)]
+        $clientFile        
+    )
+    Return $clientFile
+}
+
+
+$clientFileScriptBlock = {
+    param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
+    (Get-ChildItem -Path /Users/V0X9585/Documents/Argument-Completion/*.json -File).FullName | Where-Object {$_ -like "$wordToComplete*"} | ForEach-Object {"'$_'"}
+}
+Register-ArgumentCompleter -CommandName Test-ArgCompletionFiles -ParameterName clientFile -ScriptBlock $clientFileScriptBlock
+
+
+get-help about_Functions_Argument_Completion
+
 
 $tenantIDScriptBlock = {
     param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
