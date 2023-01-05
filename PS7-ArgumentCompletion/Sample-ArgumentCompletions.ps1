@@ -25,17 +25,10 @@ function Test-FunctionParameterTypes {
 
 
 
-<<<<<<< HEAD
 function Test-ArgumentCompletions {
     [CmdletBinding()]
     param(
         [Parameter()]
-=======
-function Test-FruitsAndVegValidation{
-    [CmdletBinding()]
-    param(
-        [Parameter(Mandatory=$true)]
->>>>>>> f96b0918dadfa7ea6140ecc633162d8ec27bf658
         [ArgumentCompletions('Apple', 'Banana', 'Orange')]
         $Fruit,
 
@@ -47,12 +40,8 @@ function Test-FruitsAndVegValidation{
 }
 
 
-<<<<<<< HEAD
 
 function Test-ArgumentValidation {
-=======
-function Test-FruitValidation {
->>>>>>> f96b0918dadfa7ea6140ecc633162d8ec27bf658
     Param(
         [Parameter(Mandatory=$true)]
         [ValidateSet('Apple', 'Banana', 'Pear')]
