@@ -1,0 +1,225 @@
+PSPath,PSParentPath,PSChildName,UnixStat,PSDrive,PSProvider,PSIsContainer,UnixMode,User,Group,Size,Mode,ModeWithoutHardLink,VersionInfo,BaseName,ResolvedTarget,Target,LinkType,Length,DirectoryName,Directory,IsReadOnly,FullName,Extension,Name,Exists,CreationTime,CreationTimeUtc,LastAccessTime,LastAccessTimeUtc,LastWriteTime,LastWriteTimeUtc,LinkTarget,UnixFileMode,Attributes
+Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Get-ServiceUsingParameterFile.ps1,Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation,Get-ServiceUsingParameterFile.ps1,System.Management.Automation.Platform+Unix+CommonStat,/,Microsoft.PowerShell.Core\FileSystem,FALSE,-rw-r--r--,V0X9585,staff,242,-----,-----,"File:             /Users/V0X9585/AutomationEducation/Get-ServiceUsingParameterFile.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+",Get-ServiceUsingParameterFile,/Users/V0X9585/AutomationEducation/Get-ServiceUsingParameterFile.ps1,,,242,/Users/V0X9585/AutomationEducation,/Users/V0X9585/AutomationEducation,FALSE,/Users/V0X9585/AutomationEducation/Get-ServiceUsingParameterFile.ps1,.ps1,Get-ServiceUsingParameterFile.ps1,TRUE,9/1/22 11:30,9/1/22 15:30,1/30/23 13:36,1/30/23 18:36,9/1/22 11:30,9/1/22 15:30,,"OtherRead, GroupRead, UserWrite, UserRead",Normal
+Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/LICENSE,Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation,LICENSE,System.Management.Automation.Platform+Unix+CommonStat,/,Microsoft.PowerShell.Core\FileSystem,FALSE,-rw-r--r--,V0X9585,staff,35149,-----,-----,"File:             /Users/V0X9585/AutomationEducation/LICENSE
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+",LICENSE,/Users/V0X9585/AutomationEducation/LICENSE,,,35149,/Users/V0X9585/AutomationEducation,/Users/V0X9585/AutomationEducation,FALSE,/Users/V0X9585/AutomationEducation/LICENSE,,LICENSE,TRUE,9/1/22 11:30,9/1/22 15:30,1/30/23 13:35,1/30/23 18:35,9/1/22 11:30,9/1/22 15:30,,"OtherRead, GroupRead, UserWrite, UserRead",Normal
+Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/README.md,Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation,README.md,System.Management.Automation.Platform+Unix+CommonStat,/,Microsoft.PowerShell.Core\FileSystem,FALSE,-rw-r--r--,V0X9585,staff,55,-----,-----,"File:             /Users/V0X9585/AutomationEducation/README.md
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+",README,/Users/V0X9585/AutomationEducation/README.md,,,55,/Users/V0X9585/AutomationEducation,/Users/V0X9585/AutomationEducation,FALSE,/Users/V0X9585/AutomationEducation/README.md,.md,README.md,TRUE,9/1/22 11:30,9/1/22 15:30,1/30/23 13:35,1/30/23 18:35,9/1/22 11:30,9/1/22 15:30,,"OtherRead, GroupRead, UserWrite, UserRead",Normal
+Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ScriptParameters.ps1,Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation,ScriptParameters.ps1,System.Management.Automation.Platform+Unix+CommonStat,/,Microsoft.PowerShell.Core\FileSystem,FALSE,-rw-r--r--,V0X9585,staff,2948,-----,-----,"File:             /Users/V0X9585/AutomationEducation/ScriptParameters.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+",ScriptParameters,/Users/V0X9585/AutomationEducation/ScriptParameters.ps1,,,2948,/Users/V0X9585/AutomationEducation,/Users/V0X9585/AutomationEducation,FALSE,/Users/V0X9585/AutomationEducation/ScriptParameters.ps1,.ps1,ScriptParameters.ps1,TRUE,9/1/22 11:30,9/1/22 15:30,1/30/23 13:36,1/30/23 18:36,9/1/22 11:30,9/1/22 15:30,,"OtherRead, GroupRead, UserWrite, UserRead",Normal
+Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/services.csv,Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation,services.csv,System.Management.Automation.Platform+Unix+CommonStat,/,Microsoft.PowerShell.Core\FileSystem,FALSE,-rw-r--r--,V0X9585,staff,30,-----,-----,"File:             /Users/V0X9585/AutomationEducation/services.csv
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+",services,/Users/V0X9585/AutomationEducation/services.csv,,,30,/Users/V0X9585/AutomationEducation,/Users/V0X9585/AutomationEducation,FALSE,/Users/V0X9585/AutomationEducation/services.csv,.csv,services.csv,TRUE,9/1/22 11:30,9/1/22 15:30,2/9/23 8:51,2/9/23 13:51,9/1/22 11:30,9/1/22 15:30,,"OtherRead, GroupRead, UserWrite, UserRead",Normal
+Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/services.json,Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation,services.json,System.Management.Automation.Platform+Unix+CommonStat,/,Microsoft.PowerShell.Core\FileSystem,FALSE,-rw-r--r--,V0X9585,staff,55,-----,-----,"File:             /Users/V0X9585/AutomationEducation/services.json
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+",services,/Users/V0X9585/AutomationEducation/services.json,,,55,/Users/V0X9585/AutomationEducation,/Users/V0X9585/AutomationEducation,FALSE,/Users/V0X9585/AutomationEducation/services.json,.json,services.json,TRUE,9/1/22 11:30,9/1/22 15:30,9/1/22 11:30,9/1/22 15:30,9/1/22 11:30,9/1/22 15:30,,"OtherRead, GroupRead, UserWrite, UserRead",Normal
+Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ParameterBinding/PowerShellParameterBindingExploration.ipynb,Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ParameterBinding,PowerShellParameterBindingExploration.ipynb,System.Management.Automation.Platform+Unix+CommonStat,/,Microsoft.PowerShell.Core\FileSystem,FALSE,-rw-r--r--,V0X9585,staff,45405,-----,-----,"File:             /Users/V0X9585/AutomationEducation/ParameterBinding/PowerShellParameterBindingExploration.ipynb
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+",PowerShellParameterBindingExploration,/Users/V0X9585/AutomationEducation/ParameterBinding/PowerShellParameterBindingExploration.ipynb,,,45405,/Users/V0X9585/AutomationEducation/ParameterBinding,/Users/V0X9585/AutomationEducation/ParameterBinding,FALSE,/Users/V0X9585/AutomationEducation/ParameterBinding/PowerShellParameterBindingExploration.ipynb,.ipynb,PowerShellParameterBindingExploration.ipynb,TRUE,9/1/22 11:30,9/1/22 15:30,9/1/22 15:16,9/1/22 19:16,9/1/22 11:30,9/1/22 15:30,,"OtherRead, GroupRead, UserWrite, UserRead",AbbyNormal
+Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/SwitchySwitchUsage/SwitchStatementLearnings.ipynb,Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/SwitchySwitchUsage,SwitchStatementLearnings.ipynb,System.Management.Automation.Platform+Unix+CommonStat,/,Microsoft.PowerShell.Core\FileSystem,FALSE,-rw-r--r--,V0X9585,staff,6298,-----,-----,"File:             /Users/V0X9585/AutomationEducation/SwitchySwitchUsage/SwitchStatementLearnings.ipynb
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+",SwitchStatementLearnings,/Users/V0X9585/AutomationEducation/SwitchySwitchUsage/SwitchStatementLearnings.ipynb,,,6298,/Users/V0X9585/AutomationEducation/SwitchySwitchUsage,/Users/V0X9585/AutomationEducation/SwitchySwitchUsage,FALSE,/Users/V0X9585/AutomationEducation/SwitchySwitchUsage/SwitchStatementLearnings.ipynb,.ipynb,SwitchStatementLearnings.ipynb,TRUE,9/1/22 11:30,9/1/22 15:30,9/1/22 11:30,9/1/22 15:30,9/1/22 11:30,9/1/22 15:30,,"OtherRead, GroupRead, UserWrite, UserRead",Normal
+Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/PS7-ArgumentCompletion/Sample-ArgumentCompletions.ps1,Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/PS7-ArgumentCompletion,Sample-ArgumentCompletions.ps1,System.Management.Automation.Platform+Unix+CommonStat,/,Microsoft.PowerShell.Core\FileSystem,FALSE,-rw-r--r--,V0X9585,staff,2659,-----,-----,"File:             /Users/V0X9585/AutomationEducation/PS7-ArgumentCompletion/Sample-ArgumentCompletions.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+",Sample-ArgumentCompletions,/Users/V0X9585/AutomationEducation/PS7-ArgumentCompletion/Sample-ArgumentCompletions.ps1,,,2659,/Users/V0X9585/AutomationEducation/PS7-ArgumentCompletion,/Users/V0X9585/AutomationEducation/PS7-ArgumentCompletion,FALSE,/Users/V0X9585/AutomationEducation/PS7-ArgumentCompletion/Sample-ArgumentCompletions.ps1,.ps1,Sample-ArgumentCompletions.ps1,TRUE,1/5/23 13:32,1/5/23 18:32,1/30/23 13:36,1/30/23 18:36,1/5/23 13:34,1/5/23 18:34,,"OtherRead, GroupRead, UserWrite, UserRead",Normal
+Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Crescendo/ipConfig.json,Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Crescendo,ipConfig.json,System.Management.Automation.Platform+Unix+CommonStat,/,Microsoft.PowerShell.Core\FileSystem,FALSE,-rw-r--r--,V0X9585,staff,877,-----,-----,"File:             /Users/V0X9585/AutomationEducation/Crescendo/ipConfig.json
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+",ipConfig,/Users/V0X9585/AutomationEducation/Crescendo/ipConfig.json,,,877,/Users/V0X9585/AutomationEducation/Crescendo,/Users/V0X9585/AutomationEducation/Crescendo,FALSE,/Users/V0X9585/AutomationEducation/Crescendo/ipConfig.json,.json,ipConfig.json,TRUE,9/1/22 11:30,9/1/22 15:30,9/1/22 11:30,9/1/22 15:30,9/1/22 11:30,9/1/22 15:30,,"OtherRead, GroupRead, UserWrite, UserRead",Normal
+Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Crescendo/ipconfig.psd1,Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Crescendo,ipconfig.psd1,System.Management.Automation.Platform+Unix+CommonStat,/,Microsoft.PowerShell.Core\FileSystem,FALSE,-rw-r--r--,V0X9585,staff,4193,-----,-----,"File:             /Users/V0X9585/AutomationEducation/Crescendo/ipconfig.psd1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+",ipconfig,/Users/V0X9585/AutomationEducation/Crescendo/ipconfig.psd1,,,4193,/Users/V0X9585/AutomationEducation/Crescendo,/Users/V0X9585/AutomationEducation/Crescendo,FALSE,/Users/V0X9585/AutomationEducation/Crescendo/ipconfig.psd1,.psd1,ipconfig.psd1,TRUE,9/1/22 11:30,9/1/22 15:30,1/30/23 13:35,1/30/23 18:35,9/1/22 11:30,9/1/22 15:30,,"OtherRead, GroupRead, UserWrite, UserRead",Normal
+Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Crescendo/ipconfig.psm1,Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Crescendo,ipconfig.psm1,System.Management.Automation.Platform+Unix+CommonStat,/,Microsoft.PowerShell.Core\FileSystem,FALSE,-rw-r--r--,V0X9585,staff,6694,-----,-----,"File:             /Users/V0X9585/AutomationEducation/Crescendo/ipconfig.psm1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+",ipconfig,/Users/V0X9585/AutomationEducation/Crescendo/ipconfig.psm1,,,6694,/Users/V0X9585/AutomationEducation/Crescendo,/Users/V0X9585/AutomationEducation/Crescendo,FALSE,/Users/V0X9585/AutomationEducation/Crescendo/ipconfig.psm1,.psm1,ipconfig.psm1,TRUE,9/1/22 11:30,9/1/22 15:30,1/30/23 13:35,1/30/23 18:35,9/1/22 11:30,9/1/22 15:30,,"OtherRead, GroupRead, UserWrite, UserRead",Normal
+Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting/ObjectPropertyFormatChange.ipynb,Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting,ObjectPropertyFormatChange.ipynb,System.Management.Automation.Platform+Unix+CommonStat,/,Microsoft.PowerShell.Core\FileSystem,FALSE,-rw-r--r--,V0X9585,staff,802,-----,-----,"File:             /Users/V0X9585/AutomationEducation/ObjectPropertyFormatting/ObjectPropertyFormatChange.ipynb
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+",ObjectPropertyFormatChange,/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting/ObjectPropertyFormatChange.ipynb,,,802,/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting,/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting,FALSE,/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting/ObjectPropertyFormatChange.ipynb,.ipynb,ObjectPropertyFormatChange.ipynb,TRUE,9/1/22 11:30,9/1/22 15:30,9/1/22 11:30,9/1/22 15:30,9/1/22 11:30,9/1/22 15:30,,"OtherRead, GroupRead, UserWrite, UserRead",AbbyNormal
+Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting/ObjectPropertyFormatting.ipynb,Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting,ObjectPropertyFormatting.ipynb,System.Management.Automation.Platform+Unix+CommonStat,/,Microsoft.PowerShell.Core\FileSystem,FALSE,-rw-r--r--,V0X9585,staff,196,-----,-----,"File:             /Users/V0X9585/AutomationEducation/ObjectPropertyFormatting/ObjectPropertyFormatting.ipynb
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+",ObjectPropertyFormatting,/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting/ObjectPropertyFormatting.ipynb,,,196,/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting,/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting,FALSE,/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting/ObjectPropertyFormatting.ipynb,.ipynb,ObjectPropertyFormatting.ipynb,TRUE,9/1/22 11:30,9/1/22 15:30,1/30/23 13:35,1/30/23 18:35,9/1/22 11:30,9/1/22 15:30,,"OtherRead, GroupRead, UserWrite, UserRead",Normal
+Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ParameterUsageinScripts/ArrayOfStrings.json,Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ParameterUsageinScripts,ArrayOfStrings.json,System.Management.Automation.Platform+Unix+CommonStat,/,Microsoft.PowerShell.Core\FileSystem,FALSE,-rw-r--r--,V0X9585,staff,544,-----,-----,"File:             /Users/V0X9585/AutomationEducation/ParameterUsageinScripts/ArrayOfStrings.json
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+",ArrayOfStrings,/Users/V0X9585/AutomationEducation/ParameterUsageinScripts/ArrayOfStrings.json,,,544,/Users/V0X9585/AutomationEducation/ParameterUsageinScripts,/Users/V0X9585/AutomationEducation/ParameterUsageinScripts,FALSE,/Users/V0X9585/AutomationEducation/ParameterUsageinScripts/ArrayOfStrings.json,.json,ArrayOfStrings.json,TRUE,9/1/22 11:30,9/1/22 15:30,1/30/23 13:36,1/30/23 18:36,9/1/22 11:30,9/1/22 15:30,,"OtherRead, GroupRead, UserWrite, UserRead",Normal
+Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ParameterUsageinScripts/Test-JSONInput-noName.ps1,Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ParameterUsageinScripts,Test-JSONInput-noName.ps1,System.Management.Automation.Platform+Unix+CommonStat,/,Microsoft.PowerShell.Core\FileSystem,FALSE,-rw-r--r--,V0X9585,staff,1489,-----,-----,"File:             /Users/V0X9585/AutomationEducation/ParameterUsageinScripts/Test-JSONInput-noName.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+",Test-JSONInput-noName,/Users/V0X9585/AutomationEducation/ParameterUsageinScripts/Test-JSONInput-noName.ps1,,,1489,/Users/V0X9585/AutomationEducation/ParameterUsageinScripts,/Users/V0X9585/AutomationEducation/ParameterUsageinScripts,FALSE,/Users/V0X9585/AutomationEducation/ParameterUsageinScripts/Test-JSONInput-noName.ps1,.ps1,Test-JSONInput-noName.ps1,TRUE,9/1/22 11:30,9/1/22 15:30,1/30/23 13:36,1/30/23 18:36,9/1/22 11:30,9/1/22 15:30,,"OtherRead, GroupRead, UserWrite, UserRead",Normal

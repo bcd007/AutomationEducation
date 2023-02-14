@@ -1,0 +1,351 @@
+"PSPath","PSParentPath","PSChildName","UnixStat","PSDrive","PSProvider","PSIsContainer","UnixMode","User","Group","Size","Mode","ModeWithoutHardLink","VersionInfo","BaseName","ResolvedTarget","Target","LinkType","Length","DirectoryName","Directory","IsReadOnly","FullName","Extension","Name","Exists","CreationTime","CreationTimeUtc","LastAccessTime","LastAccessTimeUtc","LastWriteTime","LastWriteTimeUtc","LinkTarget","UnixFileMode","Attributes"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Get-ServiceUsingParameterFile.ps1","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation","Get-ServiceUsingParameterFile.ps1","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","242","-----","-----","File:             /Users/V0X9585/AutomationEducation/Get-ServiceUsingParameterFile.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Get-ServiceUsingParameterFile","/Users/V0X9585/AutomationEducation/Get-ServiceUsingParameterFile.ps1",,,"242","/Users/V0X9585/AutomationEducation","/Users/V0X9585/AutomationEducation","False","/Users/V0X9585/AutomationEducation/Get-ServiceUsingParameterFile.ps1",".ps1","Get-ServiceUsingParameterFile.ps1","True","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM","1/30/2023 1:36:04 PM","1/30/2023 6:36:04 PM","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/LICENSE","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation","LICENSE","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","35149","-----","-----","File:             /Users/V0X9585/AutomationEducation/LICENSE
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","LICENSE","/Users/V0X9585/AutomationEducation/LICENSE",,,"35149","/Users/V0X9585/AutomationEducation","/Users/V0X9585/AutomationEducation","False","/Users/V0X9585/AutomationEducation/LICENSE","","LICENSE","True","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM","1/30/2023 1:35:20 PM","1/30/2023 6:35:20 PM","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/README.md","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation","README.md","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","55","-----","-----","File:             /Users/V0X9585/AutomationEducation/README.md
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","README","/Users/V0X9585/AutomationEducation/README.md",,,"55","/Users/V0X9585/AutomationEducation","/Users/V0X9585/AutomationEducation","False","/Users/V0X9585/AutomationEducation/README.md",".md","README.md","True","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM","1/30/2023 1:35:26 PM","1/30/2023 6:35:26 PM","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ScriptParameters.ps1","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation","ScriptParameters.ps1","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","2948","-----","-----","File:             /Users/V0X9585/AutomationEducation/ScriptParameters.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","ScriptParameters","/Users/V0X9585/AutomationEducation/ScriptParameters.ps1",,,"2948","/Users/V0X9585/AutomationEducation","/Users/V0X9585/AutomationEducation","False","/Users/V0X9585/AutomationEducation/ScriptParameters.ps1",".ps1","ScriptParameters.ps1","True","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM","1/30/2023 1:36:04 PM","1/30/2023 6:36:04 PM","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/services.csv","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation","services.csv","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","30","-----","-----","File:             /Users/V0X9585/AutomationEducation/services.csv
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","services","/Users/V0X9585/AutomationEducation/services.csv",,,"30","/Users/V0X9585/AutomationEducation","/Users/V0X9585/AutomationEducation","False","/Users/V0X9585/AutomationEducation/services.csv",".csv","services.csv","True","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM","2/9/2023 8:51:20 AM","2/9/2023 1:51:20 PM","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/services.json","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation","services.json","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","55","-----","-----","File:             /Users/V0X9585/AutomationEducation/services.json
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","services","/Users/V0X9585/AutomationEducation/services.json",,,"55","/Users/V0X9585/AutomationEducation","/Users/V0X9585/AutomationEducation","False","/Users/V0X9585/AutomationEducation/services.json",".json","services.json","True","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM","9/1/2022 11:30:58 AM","9/1/2022 3:30:58 PM","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ParameterBinding/PowerShellParameterBindingExploration.ipynb","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ParameterBinding","PowerShellParameterBindingExploration.ipynb","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","45405","-----","-----","File:             /Users/V0X9585/AutomationEducation/ParameterBinding/PowerShellParameterBindingExploration.ipynb
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","PowerShellParameterBindingExploration","/Users/V0X9585/AutomationEducation/ParameterBinding/PowerShellParameterBindingExploration.ipynb",,,"45405","/Users/V0X9585/AutomationEducation/ParameterBinding","/Users/V0X9585/AutomationEducation/ParameterBinding","False","/Users/V0X9585/AutomationEducation/ParameterBinding/PowerShellParameterBindingExploration.ipynb",".ipynb","PowerShellParameterBindingExploration.ipynb","True","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM","9/1/2022 3:16:57 PM","9/1/2022 7:16:57 PM","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ParameterBinding/Test-ValueFromPipelineBehavior_withParamSet.ps1","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ParameterBinding","Test-ValueFromPipelineBehavior_withParamSet.ps1","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","661","-----","-----","File:             /Users/V0X9585/AutomationEducation/ParameterBinding/Test-ValueFromPipelineBehavior_withParamSet.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Test-ValueFromPipelineBehavior_withParamSet","/Users/V0X9585/AutomationEducation/ParameterBinding/Test-ValueFromPipelineBehavior_withParamSet.ps1",,,"661","/Users/V0X9585/AutomationEducation/ParameterBinding","/Users/V0X9585/AutomationEducation/ParameterBinding","False","/Users/V0X9585/AutomationEducation/ParameterBinding/Test-ValueFromPipelineBehavior_withParamSet.ps1",".ps1","Test-ValueFromPipelineBehavior_withParamSet.ps1","True","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM","1/30/2023 1:36:04 PM","1/30/2023 6:36:04 PM","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ParameterBinding/Test-ValueFromPipelineBehavior.ps1","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ParameterBinding","Test-ValueFromPipelineBehavior.ps1","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","474","-----","-----","File:             /Users/V0X9585/AutomationEducation/ParameterBinding/Test-ValueFromPipelineBehavior.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Test-ValueFromPipelineBehavior","/Users/V0X9585/AutomationEducation/ParameterBinding/Test-ValueFromPipelineBehavior.ps1",,,"474","/Users/V0X9585/AutomationEducation/ParameterBinding","/Users/V0X9585/AutomationEducation/ParameterBinding","False","/Users/V0X9585/AutomationEducation/ParameterBinding/Test-ValueFromPipelineBehavior.ps1",".ps1","Test-ValueFromPipelineBehavior.ps1","True","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM","1/30/2023 1:36:04 PM","1/30/2023 6:36:04 PM","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/CalculatedPropertyExamples/Calculated-Properties.ps1","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/CalculatedPropertyExamples","Calculated-Properties.ps1","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","4663","-----","-----","File:             /Users/V0X9585/AutomationEducation/CalculatedPropertyExamples/Calculated-Properties.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Calculated-Properties","/Users/V0X9585/AutomationEducation/CalculatedPropertyExamples/Calculated-Properties.ps1",,,"4663","/Users/V0X9585/AutomationEducation/CalculatedPropertyExamples","/Users/V0X9585/AutomationEducation/CalculatedPropertyExamples","False","/Users/V0X9585/AutomationEducation/CalculatedPropertyExamples/Calculated-Properties.ps1",".ps1","Calculated-Properties.ps1","True","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM","1/30/2023 1:36:04 PM","1/30/2023 6:36:04 PM","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Compare-Object/All-FileNames.csv","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Compare-Object","All-FileNames.csv","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","12655","-----","-----","File:             /Users/V0X9585/AutomationEducation/Compare-Object/All-FileNames.csv
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","All-FileNames","/Users/V0X9585/AutomationEducation/Compare-Object/All-FileNames.csv",,,"12655","/Users/V0X9585/AutomationEducation/Compare-Object","/Users/V0X9585/AutomationEducation/Compare-Object","False","/Users/V0X9585/AutomationEducation/Compare-Object/All-FileNames.csv",".csv","All-FileNames.csv","True","2/9/2023 10:50:35 AM","2/9/2023 3:50:35 PM","2/9/2023 10:50:35 AM","2/9/2023 3:50:35 PM","2/9/2023 10:50:35 AM","2/9/2023 3:50:35 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Compare-Object/All-FileNames.txt","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Compare-Object","All-FileNames.txt","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","551","-----","-----","File:             /Users/V0X9585/AutomationEducation/Compare-Object/All-FileNames.txt
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","All-FileNames","/Users/V0X9585/AutomationEducation/Compare-Object/All-FileNames.txt",,,"551","/Users/V0X9585/AutomationEducation/Compare-Object","/Users/V0X9585/AutomationEducation/Compare-Object","False","/Users/V0X9585/AutomationEducation/Compare-Object/All-FileNames.txt",".txt","All-FileNames.txt","True","2/9/2023 10:49:57 AM","2/9/2023 3:49:57 PM","2/9/2023 10:49:57 AM","2/9/2023 3:49:57 PM","2/9/2023 10:49:57 AM","2/9/2023 3:49:57 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Compare-Object/Compare-Object-Examples.ipynb","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Compare-Object","Compare-Object-Examples.ipynb","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","16005","-----","-----","File:             /Users/V0X9585/AutomationEducation/Compare-Object/Compare-Object-Examples.ipynb
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Compare-Object-Examples","/Users/V0X9585/AutomationEducation/Compare-Object/Compare-Object-Examples.ipynb",,,"16005","/Users/V0X9585/AutomationEducation/Compare-Object","/Users/V0X9585/AutomationEducation/Compare-Object","False","/Users/V0X9585/AutomationEducation/Compare-Object/Compare-Object-Examples.ipynb",".ipynb","Compare-Object-Examples.ipynb","True","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM","2/9/2023 10:42:41 AM","2/9/2023 3:42:41 PM","2/9/2023 10:42:41 AM","2/9/2023 3:42:41 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Compare-Object/FileNames.txt","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Compare-Object","FileNames.txt","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","302","-----","-----","File:             /Users/V0X9585/AutomationEducation/Compare-Object/FileNames.txt
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","FileNames","/Users/V0X9585/AutomationEducation/Compare-Object/FileNames.txt",,,"302","/Users/V0X9585/AutomationEducation/Compare-Object","/Users/V0X9585/AutomationEducation/Compare-Object","False","/Users/V0X9585/AutomationEducation/Compare-Object/FileNames.txt",".txt","FileNames.txt","True","2/9/2023 10:30:50 AM","2/9/2023 3:30:50 PM","2/9/2023 10:32:08 AM","2/9/2023 3:32:08 PM","2/9/2023 10:32:06 AM","2/9/2023 3:32:06 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Compare-Object/Store1.txt","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Compare-Object","Store1.txt","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","44","-----","-----","File:             /Users/V0X9585/AutomationEducation/Compare-Object/Store1.txt
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Store1","/Users/V0X9585/AutomationEducation/Compare-Object/Store1.txt",,,"44","/Users/V0X9585/AutomationEducation/Compare-Object","/Users/V0X9585/AutomationEducation/Compare-Object","False","/Users/V0X9585/AutomationEducation/Compare-Object/Store1.txt",".txt","Store1.txt","True","2/9/2023 9:22:19 AM","2/9/2023 2:22:19 PM","2/9/2023 9:22:20 AM","2/9/2023 2:22:20 PM","2/9/2023 9:22:19 AM","2/9/2023 2:22:19 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Compare-Object/Store2.txt","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Compare-Object","Store2.txt","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","44","-----","-----","File:             /Users/V0X9585/AutomationEducation/Compare-Object/Store2.txt
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Store2","/Users/V0X9585/AutomationEducation/Compare-Object/Store2.txt",,,"44","/Users/V0X9585/AutomationEducation/Compare-Object","/Users/V0X9585/AutomationEducation/Compare-Object","False","/Users/V0X9585/AutomationEducation/Compare-Object/Store2.txt",".txt","Store2.txt","True","2/9/2023 9:22:56 AM","2/9/2023 2:22:56 PM","2/9/2023 9:22:56 AM","2/9/2023 2:22:56 PM","2/9/2023 9:22:56 AM","2/9/2023 2:22:56 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/SwitchySwitchUsage/SwitchStatementLearnings.ipynb","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/SwitchySwitchUsage","SwitchStatementLearnings.ipynb","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","6298","-----","-----","File:             /Users/V0X9585/AutomationEducation/SwitchySwitchUsage/SwitchStatementLearnings.ipynb
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","SwitchStatementLearnings","/Users/V0X9585/AutomationEducation/SwitchySwitchUsage/SwitchStatementLearnings.ipynb",,,"6298","/Users/V0X9585/AutomationEducation/SwitchySwitchUsage","/Users/V0X9585/AutomationEducation/SwitchySwitchUsage","False","/Users/V0X9585/AutomationEducation/SwitchySwitchUsage/SwitchStatementLearnings.ipynb",".ipynb","SwitchStatementLearnings.ipynb","True","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM","9/1/2022 11:30:58 AM","9/1/2022 3:30:58 PM","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/PS7-ArgumentCompletion/Sample-ArgumentCompletions.ps1","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/PS7-ArgumentCompletion","Sample-ArgumentCompletions.ps1","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","2659","-----","-----","File:             /Users/V0X9585/AutomationEducation/PS7-ArgumentCompletion/Sample-ArgumentCompletions.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Sample-ArgumentCompletions","/Users/V0X9585/AutomationEducation/PS7-ArgumentCompletion/Sample-ArgumentCompletions.ps1",,,"2659","/Users/V0X9585/AutomationEducation/PS7-ArgumentCompletion","/Users/V0X9585/AutomationEducation/PS7-ArgumentCompletion","False","/Users/V0X9585/AutomationEducation/PS7-ArgumentCompletion/Sample-ArgumentCompletions.ps1",".ps1","Sample-ArgumentCompletions.ps1","True","1/5/2023 1:32:58 PM","1/5/2023 6:32:58 PM","1/30/2023 1:36:07 PM","1/30/2023 6:36:07 PM","1/5/2023 1:34:37 PM","1/5/2023 6:34:37 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Crescendo/ipConfig.json","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Crescendo","ipConfig.json","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","877","-----","-----","File:             /Users/V0X9585/AutomationEducation/Crescendo/ipConfig.json
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","ipConfig","/Users/V0X9585/AutomationEducation/Crescendo/ipConfig.json",,,"877","/Users/V0X9585/AutomationEducation/Crescendo","/Users/V0X9585/AutomationEducation/Crescendo","False","/Users/V0X9585/AutomationEducation/Crescendo/ipConfig.json",".json","ipConfig.json","True","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Crescendo/ipconfig.psd1","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Crescendo","ipconfig.psd1","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","4193","-----","-----","File:             /Users/V0X9585/AutomationEducation/Crescendo/ipconfig.psd1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","ipconfig","/Users/V0X9585/AutomationEducation/Crescendo/ipconfig.psd1",,,"4193","/Users/V0X9585/AutomationEducation/Crescendo","/Users/V0X9585/AutomationEducation/Crescendo","False","/Users/V0X9585/AutomationEducation/Crescendo/ipconfig.psd1",".psd1","ipconfig.psd1","True","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM","1/30/2023 1:35:28 PM","1/30/2023 6:35:28 PM","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Crescendo/ipconfig.psm1","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/Crescendo","ipconfig.psm1","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","6694","-----","-----","File:             /Users/V0X9585/AutomationEducation/Crescendo/ipconfig.psm1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","ipconfig","/Users/V0X9585/AutomationEducation/Crescendo/ipconfig.psm1",,,"6694","/Users/V0X9585/AutomationEducation/Crescendo","/Users/V0X9585/AutomationEducation/Crescendo","False","/Users/V0X9585/AutomationEducation/Crescendo/ipconfig.psm1",".psm1","ipconfig.psm1","True","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM","1/30/2023 1:35:36 PM","1/30/2023 6:35:36 PM","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting/ObjectPropertyFormatChange.ipynb","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting","ObjectPropertyFormatChange.ipynb","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","802","-----","-----","File:             /Users/V0X9585/AutomationEducation/ObjectPropertyFormatting/ObjectPropertyFormatChange.ipynb
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","ObjectPropertyFormatChange","/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting/ObjectPropertyFormatChange.ipynb",,,"802","/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting","/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting","False","/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting/ObjectPropertyFormatChange.ipynb",".ipynb","ObjectPropertyFormatChange.ipynb","True","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting/ObjectPropertyFormatting.ipynb","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting","ObjectPropertyFormatting.ipynb","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","196","-----","-----","File:             /Users/V0X9585/AutomationEducation/ObjectPropertyFormatting/ObjectPropertyFormatting.ipynb
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","ObjectPropertyFormatting","/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting/ObjectPropertyFormatting.ipynb",,,"196","/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting","/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting","False","/Users/V0X9585/AutomationEducation/ObjectPropertyFormatting/ObjectPropertyFormatting.ipynb",".ipynb","ObjectPropertyFormatting.ipynb","True","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM","1/30/2023 1:35:27 PM","1/30/2023 6:35:27 PM","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ParameterUsageinScripts/ArrayOfStrings.json","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ParameterUsageinScripts","ArrayOfStrings.json","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","544","-----","-----","File:             /Users/V0X9585/AutomationEducation/ParameterUsageinScripts/ArrayOfStrings.json
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","ArrayOfStrings","/Users/V0X9585/AutomationEducation/ParameterUsageinScripts/ArrayOfStrings.json",,,"544","/Users/V0X9585/AutomationEducation/ParameterUsageinScripts","/Users/V0X9585/AutomationEducation/ParameterUsageinScripts","False","/Users/V0X9585/AutomationEducation/ParameterUsageinScripts/ArrayOfStrings.json",".json","ArrayOfStrings.json","True","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM","1/30/2023 1:36:54 PM","1/30/2023 6:36:54 PM","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
+"Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ParameterUsageinScripts/Test-JSONInput-noName.ps1","Microsoft.PowerShell.Core\FileSystem::/Users/V0X9585/AutomationEducation/ParameterUsageinScripts","Test-JSONInput-noName.ps1","System.Management.Automation.Platform+Unix+CommonStat","/","Microsoft.PowerShell.Core\FileSystem","False","-rw-r--r--","V0X9585","staff","1489","-----","-----","File:             /Users/V0X9585/AutomationEducation/ParameterUsageinScripts/Test-JSONInput-noName.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Test-JSONInput-noName","/Users/V0X9585/AutomationEducation/ParameterUsageinScripts/Test-JSONInput-noName.ps1",,,"1489","/Users/V0X9585/AutomationEducation/ParameterUsageinScripts","/Users/V0X9585/AutomationEducation/ParameterUsageinScripts","False","/Users/V0X9585/AutomationEducation/ParameterUsageinScripts/Test-JSONInput-noName.ps1",".ps1","Test-JSONInput-noName.ps1","True","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM","1/30/2023 1:36:05 PM","1/30/2023 6:36:05 PM","9/1/2022 11:30:57 AM","9/1/2022 3:30:57 PM",,"OtherRead, GroupRead, UserWrite, UserRead","Normal"
