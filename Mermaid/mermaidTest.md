@@ -43,7 +43,3 @@ gantt
     Second Task      :2018-07-12, 12d
     Third Task       : 24d
 ```
-
-```PowerShell
-If ((test-path $outputFile) -eq "True") {Remove-Item $outputFile -force}
-```
