@@ -103,7 +103,7 @@ function Test-ArgCompletionFiles {
 
 $clientFileScriptBlock = {
     param($commandName, $parameterName, $wordToComplete)
-    (Get-ChildItem -Path C:\Users\v0x9585-ad\Documents\ -File -Filter *.json -Recurse).FullName | Where-Object {$_ -like "$wordToComplete*"} | ForEach-Object {"'$_'"}
+    (Get-ChildItem -Path .\ -File -Filter *.json -Recurse).FullName | Where-Object {$_ -like "$wordToComplete*"} | ForEach-Object {"'$_'"}
 }
 Register-ArgumentCompleter -CommandName Test-ArgCompletionFiles -ParameterName clientFile -ScriptBlock $clientFileScriptBlock
 
