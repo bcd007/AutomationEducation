@@ -3,6 +3,8 @@ get-help about_Functions_Argument_Completion
 
 # Note:  'ArgumentCompletions' is only available in PowerShell 6.0 and above
 # For Windows PowerShell, use Register-ArgumentCompleter with a scriptblock
+#
+
 
 #
 #   Time Parameter Validations
