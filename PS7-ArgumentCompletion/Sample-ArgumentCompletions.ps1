@@ -1,5 +1,12 @@
+get-help about_Functions_Argument_Completion
+
+
 # Note:  'ArgumentCompletions' is only available in PowerShell 6.0 and above
 # For Windows PowerShell, use Register-ArgumentCompleter with a scriptblock
+
+#
+#   Time Parameter Validations
+#
 
 function Test-FunctionParameterTypes {
     [CmdletBinding()]
@@ -23,8 +30,9 @@ function Test-FunctionParameterTypes {
     $userName,$ComputerName,$ComputerNumber
 }
 
-
-
+#
+#   ArguementCompletions type (Requires PowerShell Core and up)
+#
 function Test-ArgumentCompletions {
     [CmdletBinding()]
     param(
@@ -40,20 +48,25 @@ function Test-ArgumentCompletions {
 }
 
 
+# Argument completion for Windows PowerShell & PowerShell
+
+#
+#   Validate Set Example
+#
 
 function Test-ArgumentValidation {
     Param(
         [Parameter(Mandatory=$true)]
-        [ValidateSet('Apple', 'Banana', 'Pear')]
+        [ValidateSet('Dev', 'QA', 'Prod')]
         [string[]]
-        $Fruit
+        $adEnvironment
     )
-    Return $Fruit
+    Return $adEnvironment
 }
 
-
-
-# Argument completion for Windows PowerShell & PowerShell
+#
+#   Time Zone Arguement Completions
+#
 function Test-ArgCompletionTimezone {
     [CmdletBinding()]
     param(
@@ -63,14 +76,21 @@ function Test-ArgCompletionTimezone {
     Return $TZone
 }
 
+$timeZonescriptBlock = {
+    param($commandName, $parameterName, $wordToComplete)
+    (Get-TimeZone -ListAvailable).Id | Where-Object {$_ -like "$wordToComplete*"} | ForEach-Object {"'$_'"}
+}
+Register-ArgumentCompleter -CommandName Test-ArgCompletionTimezone -ParameterName TZone -ScriptBlock $timeZonescriptBlock
+
 
 $timeZonescriptBlock = {
     param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
     (Get-TimeZone -ListAvailable).DisplayName | Where-Object {$_ -like "$wordToComplete*"} | ForEach-Object {"'$_'"}
 }
-Register-ArgumentCompleter -CommandName Test-ArgCompletionTimezone -ParameterName TZone -ScriptBlock $timeZonescriptBlock
 
-
+#
+#   JSON File Type Completions
+#
 
 function Test-ArgCompletionFiles {
     [CmdletBinding()]
@@ -81,19 +101,62 @@ function Test-ArgCompletionFiles {
     Return $clientFile
 }
 
-
 $clientFileScriptBlock = {
-    param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
-    (Get-ChildItem -Path Documents/Argument-Completion/*.json -File).FullName | Where-Object {$_ -like "$wordToComplete*"} | ForEach-Object {"'$_'"}
+    param($commandName, $parameterName, $wordToComplete)
+    (Get-ChildItem -Path C:\Users\v0x9585-ad\Documents\ -File -Filter *.json -Recurse).FullName | Where-Object {$_ -like "$wordToComplete*"} | ForEach-Object {"'$_'"}
 }
 Register-ArgumentCompleter -CommandName Test-ArgCompletionFiles -ParameterName clientFile -ScriptBlock $clientFileScriptBlock
 
 
-get-help about_Functions_Argument_Completion
+#
+#   Domain Controller Completions
+#
 
-
-$tenantIDScriptBlock = {
-    param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
-    "d9d47063-3f5e-4de9-bf99-f083657fa0fe","17e717f1-f026-462d-b77e-4468a7f8126b"| Where-Object {$_ -like "$wordToComplete*"} | ForEach-Object {"'$_'"}
+function Test-ArgDCs {
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory=$true)]
+        $dcName        
+    )
+    Return $dcName
 }
-Register-ArgumentCompleter -CommandName Initialize-GraphToken -ParameterName tenantID -ScriptBlock $tenantIDScriptBlock 
+
+$getadDomainControllers = {
+    param($commandName, $parameterName, $wordToComplete)
+    ((get-addomain).ReplicaDirectoryServers) | Where-Object {$_ -like "$wordToComplete*"} | ForEach-Object {"'$_'"}
+}
+
+Register-ArgumentCompleter -CommandName Test-ArgDCs -ParameterName dcName -ScriptBlock $getadDomainControllers
+
+#
+#   PowerShell 6+ Using Classes to do arguement completions
+#
+
+class jsonFiles : System.Management.Automation.IValidateSetValuesGenerator {
+    [String[]] GetValidValues() {
+        $Global:jsonFiles = (Get-ChildItem -Path C:\Users\v0x9585-ad\Documents\ -File -Filter *.json -Recurse).FullName
+        return ($Global:jsonFiles)
+    }
+}
+Function Get-jsonFiles {
+    Param(
+        [Parameter(Mandatory)]
+        [ValidateSet([jsonFiles],ErrorMessage="Value '{0}' is invalid. Try one of: {1}")]
+        $jsonFiles
+    )
+}
+
+class jsonFilesMac : System.Management.Automation.IValidateSetValuesGenerator {
+    [String[]] GetValidValues() {
+        $Global:jsonFiles = (Get-ChildItem -Path /Users/V0X9585/Documents/Argument-Completion/ -File -Filter *.json -Recurse).FullName
+        return ($Global:jsonFiles)
+    }
+}
+
+Function Get-jsonFiles {
+    Param(
+        [Parameter(Mandatory)]
+        [ValidateSet([jsonFilesMac],ErrorMessage="Value '{0}' is invalid. Try one of: {1}")]
+        $jsonFiles
+    )
+}
