@@ -103,7 +103,7 @@ function Test-ArgCompletionFiles {
 
 $clientFileScriptBlock = {
     param($commandName, $parameterName, $wordToComplete)
-    (Get-ChildItem -Path C:\Users\v0x9585-ad\Documents\ -File -Filter *.json -Recurse).FullName | Where-Object {$_ -like "$wordToComplete*"} | ForEach-Object {"'$_'"}
+    (Get-ChildItem -Path .\ -File -Filter *.json -Recurse).FullName | Where-Object {$_ -like "$wordToComplete*"} | ForEach-Object {"'$_'"}
 }
 Register-ArgumentCompleter -CommandName Test-ArgCompletionFiles -ParameterName clientFile -ScriptBlock $clientFileScriptBlock
 
@@ -134,7 +134,7 @@ Register-ArgumentCompleter -CommandName Test-ArgDCs -ParameterName dcName -Scrip
 
 class jsonFiles : System.Management.Automation.IValidateSetValuesGenerator {
     [String[]] GetValidValues() {
-        $Global:jsonFiles = (Get-ChildItem -Path C:\Users\v0x9585-ad\Documents\ -File -Filter *.json -Recurse).FullName
+        $Global:jsonFiles = (Get-ChildItem -Path .\ -File -Filter *.json -Recurse).FullName
         return ($Global:jsonFiles)
     }
 }
@@ -148,7 +148,7 @@ Function Get-jsonFiles {
 
 class jsonFilesMac : System.Management.Automation.IValidateSetValuesGenerator {
     [String[]] GetValidValues() {
-        $Global:jsonFiles = (Get-ChildItem -Path /Users/V0X9585/Documents/Argument-Completion/ -File -Filter *.json -Recurse).FullName
+        $Global:jsonFiles = (Get-ChildItem -Path /Documents/Argument-Completion/ -File -Filter *.json -Recurse).FullName
         return ($Global:jsonFiles)
     }
 }
