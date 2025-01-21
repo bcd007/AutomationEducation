@@ -27,7 +27,7 @@ Version:  3.0
 (Get-Content -Raw "C:\Temp\O365IssuesScriptData.json") | ConvertFrom-Json | C:\Temp\Get-O365AlertsUsingGraph-V3.ps1
 
 .EXAMPLE
-Get-O365AlertsUsingGraph.ps1 -tenantID 648ce928-1175-4c5e-b65d-eeac50fc6258 -clientFile "C:\Temp\SomeCredFile.json" -siteID a1d0bdc1-1758-49db-a703-e082a4f5b465 -listId 167c6b88-044a-4f6f-b6d1-7785b8e75f65
+Get-O365AlertsUsingGraph.ps1 -tenantID <someID> -clientFile "C:\Temp\SomeCredFile.json" -siteID <someSharePointSiteID> -listId <Some SharePoint List ID>
 #>
 
 [CmdletBinding()]
@@ -45,13 +45,13 @@ $applicationReg = (ConvertFrom-Json -InputObject (Get-Content $clientFile -ReadC
 $dataforeachTeam = @()
 # Productivity Management Team
 $alertstoCheck = $null
-$dataforeachTeam += [PSCustomObject]@{"SiteID"='eb4abad1-46d7-4ac2-bbf3-a207a5a4fe2f';"ListID"='b0b43225-063a-47ab-9a70-8ecc22b39d2e';"Filter"= $alertstoCheck}
+$dataforeachTeam += [PSCustomObject]@{"SiteID"='<someSIteID>';"ListID"='<someListID>';"Filter"= $alertstoCheck}
 # Security Team
 $alertstoCheck = $null;$alertstoCheck = "Azure Information Protection","Dynamics 365 Apps","Dynamics 365 Business Central","Identity Service","Microsoft 365 Apps","Microsoft 365 Defender","Microsoft 365 suite","Microsoft Defender for Cloud Apps","Microsoft Intune","Microsoft Power Automate","Microsoft Power Automate in Microsoft 365","Mobile Device Management for Office 365","Office for the web","OneDrive for Business","Power Apps","Power Apps in Microsoft 365","Power BI"
-$dataforeachTeam += [PSCustomObject]@{"SiteID"='8cb554da-0d5c-4806-8f2a-f0232bf57c69';"ListID"='104d17a0-6893-48c2-8711-1b939e0fceef';"Filter"= $alertstoCheck}
+$dataforeachTeam += [PSCustomObject]@{"SiteID"='<SomeSIteID>';"ListID"='<SomeListID>';"Filter"= $alertstoCheck}
 # RCD Demo Team
 $alertstoCheck = $null
-$dataforeachTeam += [PSCustomObject]@{"SiteID"='1e9c3e68-77d1-43aa-b7d1-3dd7d95d7ae0';"ListID"='b26282ee-6a08-4082-ba75-a3067639c03f';"Filter"= $alertstoCheck}
+$dataforeachTeam += [PSCustomObject]@{"SiteID"='<SomeSiteID>';"ListID"='<SomeListID>';"Filter"= $alertstoCheck}
 
 # Create the GraphAPI connection and token to use throughout the script
 $ReqTokenBody = @{
